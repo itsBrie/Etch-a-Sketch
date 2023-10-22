@@ -5,11 +5,6 @@ let randomBtn = document.querySelector('.randomColors');
 let isRandom = false;
 // const listCell = document.querySelectorAll('div.cell');
 const randColor = () => {
-    // # FF FF FF -- WHITE
-    // # FF 00 00 -- RED
-    // # 00 FF 00 -- GREEN
-    // # 00 00 FF -- BLUE
-    // # 00 FF FF -- CYAN
     return "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0').toUpperCase();
 }
 let x = 12;
